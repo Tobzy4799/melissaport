@@ -1,0 +1,9 @@
+.text-gradient {
+  font-family: 'Orbitron', sans-serif; /* futuristic font */
+  background: linear-gradient(90deg, #ff7e5f, #feb47b, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
