@@ -22,7 +22,7 @@ const Portfolio = () => {
           {/* Profile Image */}
           <div className="col-md-4 mb-4 mb-md-0 text-center">
             <img
-              src="/melissa.jpg"
+              src={`${import.meta.env.BASE_URL}melissa.jpg`}
               alt="Profile"
               className="rounded-circle border border-3 border-primary"
               style={{ width: "400px", height: "400px", objectFit: "cover" }}
